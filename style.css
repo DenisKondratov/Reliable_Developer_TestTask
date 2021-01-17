@@ -448,6 +448,9 @@ figure div {
 }
 
 @media (max-width: 375px) {
+    body {
+        min-width: 320px;
+    }
     header{
         height: 74px;
     }
