@@ -15,7 +15,7 @@ header {
     position: relative;
 
 }
-#logo {
+.logo {
     height: inherit;
     width: 468px;
     background-color: #F7F8FC;
@@ -23,21 +23,21 @@ header {
     align-items: center;
     
 }
-#logo h1 {
+.logo h1 {
     font-family: 'HelveticaNeueCyr-Black', serif;
     margin: auto 55px auto 80px;
     font-size: 40px;
     color: #4E254F;
     text-transform: uppercase;
 }
-#logo a{
+.logo__link{
     display: block; 
     margin-right: 24px;
     text-decoration: none;
     font-size: 14px;
     color: rgba(78, 37, 79, 0.25);
 }
-#logo a:focus{
+.logo__linkActive{
     color: #4E254F;
 
 }
@@ -223,13 +223,13 @@ header {
 .container__stockContainer-counter  li{
     margin-right: 14px;
 }
-.container__stockContainer-counter a{
+.container__stockContainer-link{
     text-decoration: none;
     font-size: 16px;
     color: #fff;
     opacity: .25;
 }
-.container__stockContainer-counter a:focus{
+.activCounter{
     color: #9ACCC2;
     opacity: 1;
 }
