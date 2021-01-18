@@ -35,11 +35,14 @@
 
     }
 
-    for(i = 0; i < activCounter.length; i++) {
+    for(let i = 0; i < activCounter.length; i++) {
         activCounter[i].onclick = function(e){
-            e.preventDefault(); 
-            activCounter[i].classList.remove('activCounter');
+            e.preventDefault();
+            for(let j = 0; j < activCounter.length; j++){
+                activCounter[j].classList.remove('activCounter');
+            }
             this.classList.add('activCounter');
+            
         }
     }
 
